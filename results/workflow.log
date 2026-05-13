@@ -1,0 +1,29 @@
+2026-05-13 18:11:24,865 - __main__ - INFO - ======================================================================
+2026-05-13 18:11:24,865 - __main__ - INFO - 【AHP + 熵权法 + TOPSIS 自动化工作流】
+2026-05-13 18:11:24,865 - __main__ - INFO - ======================================================================
+2026-05-13 18:11:24,865 - __main__ - INFO - 启动时间: 2026-05-13 18:11:24
+2026-05-13 18:11:24,865 - __main__ - INFO - 运行模式: full
+2026-05-13 18:11:24,865 - __main__ - INFO - ======================================================================
+
+2026-05-13 18:11:24,865 - __main__ - INFO - 【初始化项目结构】
+2026-05-13 18:11:24,866 - __main__ - INFO - ✓ 创建目录: E:\workingPlayer\日常学习\python\ahp_entropy_topsis_system\data
+2026-05-13 18:11:24,866 - __main__ - INFO - ✓ 创建目录: E:\workingPlayer\日常学习\python\ahp_entropy_topsis_system\results
+2026-05-13 18:11:24,866 - __main__ - INFO - ✓ 创建目录: E:\workingPlayer\日常学习\python\ahp_entropy_topsis_system\results\figures
+2026-05-13 18:11:24,867 - __main__ - INFO - ✓ 创建目录: E:\workingPlayer\日常学习\python\ahp_entropy_topsis_system\modules
+2026-05-13 18:11:24,867 - __main__ - INFO - ✓ 创建目录: E:\workingPlayer\日常学习\python\ahp_entropy_topsis_system\utils
+2026-05-13 18:11:24,867 - __main__ - INFO - 项目结构初始化完成
+
+2026-05-13 18:11:24,867 - __main__ - INFO - 【生成示例数据文件】
+2026-05-13 18:11:24,867 - __main__ - INFO - ✓ 生成示例数据: E:\workingPlayer\日常学习\python\ahp_entropy_topsis_system\data\data_example.csv
+2026-05-13 18:11:24,897 - __main__ - INFO - ✓ 生成示例指标配置: E:\workingPlayer\日常学习\python\ahp_entropy_topsis_system\data\indicators_example.json
+2026-05-13 18:11:24,898 - __main__ - INFO - ✓ 生成示例AHP判断矩阵: E:\workingPlayer\日常学习\python\ahp_entropy_topsis_system\data\ahp_matrix_example.json
+2026-05-13 18:11:24,898 - __main__ - INFO - 示例文件生成完成
+
+2026-05-13 18:11:24,898 - __main__ - INFO - 【检查输入文件】
+2026-05-13 18:11:24,898 - __main__ - WARNING - ✗ 缺少 数据矩阵: E:\workingPlayer\日常学习\python\ahp_entropy_topsis_system\data\data.csv
+2026-05-13 18:11:24,899 - __main__ - INFO - ✓ 找到 AHP判断矩阵: E:\workingPlayer\日常学习\python\ahp_entropy_topsis_system\data\ahp_matrix.json
+2026-05-13 18:11:24,899 - __main__ - ERROR - 
+缺少必要文件: 数据矩阵
+2026-05-13 18:11:24,899 - __main__ - INFO - 请参考 data/ 目录下的示例文件进行配置
+2026-05-13 18:11:24,899 - __main__ - ERROR - 
+【工作流启动失败】缺少必要的输入文件

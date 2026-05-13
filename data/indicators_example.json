@@ -1,0 +1,22 @@
+{
+  "indicators": [
+    {
+      "name": "指标1",
+      "type": "benefit",
+      "description": "效益型指标，越大越好",
+      "ideal_value": null
+    },
+    {
+      "name": "指标2",
+      "type": "cost",
+      "description": "成本型指标，越小越好",
+      "ideal_value": null
+    },
+    {
+      "name": "指标3",
+      "type": "moderate",
+      "description": "适度型指标，接近最优值最好",
+      "ideal_value": 50
+    }
+  ]
+}

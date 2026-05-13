@@ -1,0 +1,32 @@
+{
+  "indicators": [
+    {
+      "name": "经济效益",
+      "type": "benefit",
+      "description": "年度利润，单位：万元",
+      "ideal_value": null,
+      "unit": "万元"
+    },
+    {
+      "name": "成本投入",
+      "type": "cost",
+      "description": "初期投资，单位：万元",
+      "ideal_value": null,
+      "unit": "万元"
+    },
+    {
+      "name": "环境温度",
+      "type": "moderate",
+      "description": "最适温度为25°C",
+      "ideal_value": 25,
+      "unit": "°C"
+    },
+    {
+      "name": "用户满意度",
+      "type": "benefit",
+      "description": "满意度评分，1-100分",
+      "ideal_value": null,
+      "unit": "分"
+    }
+  ]
+}
